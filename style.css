@@ -568,7 +568,7 @@ footer{
     transform: translate(-50%, -50%);
     top: 50vh;
     left: 50vw;
-    animation: doubleCurveBounce 1s ease-in-out forwards;
+    animation: doubleCurveBounce 2s ease-in-out forwards;
     transition: transform 1.5s ease;
     align-items: center;
 }
