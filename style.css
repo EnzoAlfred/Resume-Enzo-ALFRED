@@ -1,0 +1,626 @@
+@media only screen and (max-width: 767px) {
+    .title{
+        font-family: 'Dosis', sans-serif;
+        font-size: 10px;
+        text-align: center;
+        color: black;
+    }
+
+    #aboutMe > p{
+        line-height: 25px;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 13px;
+    }
+
+    #skillTitle {
+        color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #skills {
+        background-attachment: fixed;
+        background-image: url("img_montagne.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 1000px;
+        width: 100%;
+        position: relative;
+        align-items: center;
+    }
+
+    #cardsSkills{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .card{
+        background-color: #000080;
+        color: white;
+        border: solid 5px #000000;
+        border-radius: 25%;
+        width: 250px;
+        height: 250px;
+        margin-top: 5%;
+        font-size: 15px;
+    }
+    
+    .card > h2{
+        text-align: center;
+    }
+    
+    .card > li {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+    }
+    
+    .card > ul {
+        line-height: 30px;
+    }
+    
+    .stars {
+        display: inline-flex;
+        align-items: center;
+        color: rgb(255, 220, 22);
+        margin-left: 10px;
+    }
+
+    #exp{
+        padding-bottom: 5%;
+    }
+
+    #cardsXp {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .cardXp {
+        border: solid 5px #000000;
+        border-radius: 25%;
+        width: 500px;
+        line-height: 35px;
+        height: 30%;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+
+    #resume {
+        display: none;
+        font-size: 30px;
+        margin-left: 2%;
+    }
+
+    #icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5%;
+        padding-left: 5%;
+        height: 100px;
+        width: 100%;
+    }
+
+    .icon {
+        margin-right: 10%;
+    }
+
+    .icon > a > svg {
+        height: 100%;
+        width: 30px;
+    }
+
+    .icon > a {
+        text-decoration: none;
+        color: white;
+        transition: 1s ease;
+    }
+
+    .icon > a:hover {
+        color: #000000;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+    }
+
+    #click{
+        opacity: 0;
+        font-size: 9px;
+        position: absolute;
+        transform: translate(-50%);
+        left: 50vw;
+    }
+
+    @keyframes doubleCurveBounce {
+        0% {
+            top: -50vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+        }
+        40%{
+            transform: scale( .3, 1.5);
+        }
+        60% {
+            top: 90vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+            transform: scale(1.5, .3);
+        }
+        80%{
+            transform: scale( 0.5, 1.5) rotate(45deg);
+        }
+        100% {
+            transform: scale(1, 1);
+            transform: translate(-50%, -50%);
+            top: 50vh;
+            left: 50vw;
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .title{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+
+    #aboutMe > p{
+        line-height: 40px;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 15px;
+    }
+
+    #skillTitle {
+        color: white;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #skills {
+        background-attachment: fixed;
+        background-image: url("img_montagne.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 1000px;
+        width: 100%;
+        position: relative;
+        align-items: center;
+    }
+
+    #cardsSkills{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 35%;
+        margin-right: 30%;
+    }
+    
+    .card{
+        background-color: #000080;
+        color: white;
+        border: solid 5px #000000;
+        border-radius: 25%;
+        width: 250px;
+        height: 250px;
+        margin-top: 5%;
+    }
+    
+    .card > h2{
+        text-align: center;
+    }
+    
+    .card > li {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+    }
+    
+    .card > ul {
+        line-height: 30px;
+    }
+    
+    .stars {
+        display: inline-flex;
+        align-items: center;
+        color: rgb(255, 220, 22);
+        margin-left: 10px;
+    }
+
+    #exp{
+        padding-bottom: 5%;
+    }
+
+    #cardsXp {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .cardXp {
+        border: solid 5px #000000;
+        border-radius: 25%;
+        width: 500px;
+        line-height: 35px;
+        height: 30%;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+
+    #resume {
+        font-size: 30px;
+        margin-left: 2%;
+    }
+
+    #icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5%;
+        height: 100px;
+        width: 25%;
+    }
+
+    .icon {
+        margin-right: 10%;
+    }
+
+    .icon > a > svg {
+        height: 100%;
+        width: 30px;
+    }
+
+    .icon > a {
+        text-decoration: none;
+        color: white;
+        transition: 1s ease;
+    }
+
+    .icon > a:hover {
+        color: #000000;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+    }
+
+    #click{
+        opacity: 0;
+        position: absolute;
+        transform: translate(-50%);
+        left: 50vw;
+    }
+
+    @keyframes doubleCurveBounce {
+        0% {
+            top: -50vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+        }
+        40%{
+            transform: scale( .3, 1.5);
+        }
+        60% {
+            top: 90vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+            transform: scale(1.5, .3);
+        }
+        80%{
+            transform: scale( 0.5, 1.5) rotate(45deg);
+        }
+        100% {
+            transform: scale(1, 1);
+            transform: translate(-50%, -50%);
+            top: 50vh;
+            left: 50vw;
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    .title{
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        color: black;
+    }
+
+    #aboutMe > p{
+        line-height: 40px;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    #skillTitle {
+        color: white;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #skills {
+        background-image: url("img_montagne.jpg");
+        background-size: cover;
+        background-position: bottom center;
+        height: 500px;
+        width: 100%;
+        position: relative; /* Assurez-vous que l'image reste relative à la section */
+        overflow: hidden; /* Pour éviter que l'image déborde */
+    }
+
+    #cardsSkills{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .card{
+        background-color: #000080;
+        color: white;
+        border: solid 5px #000000;
+        border-radius: 25%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .card > h2{
+        text-align: center;
+    }
+    
+    .card > li {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+    }
+    
+    .card > ul {
+        line-height: 35px;
+    }
+    
+    .stars {
+        display: inline-flex;
+        align-items: center;
+        color: rgb(255, 220, 22);
+        margin-left: 10px;
+    }
+
+    #exp{
+        padding-bottom: 5%;
+    }
+
+    #cardsXp {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .cardXp {
+        border: solid 5px #000000;
+        border-radius: 25%;
+        width: 500px;
+        line-height: 35px;
+        height: 30%;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+
+    #resume {
+        font-size: 35px;
+        margin-left: 2%;
+    }
+
+    #icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 25%;
+    }
+
+    .icon {
+        margin-right: 10%;
+    }
+
+    .icon > a > svg {
+        height: 100%;
+        width: 30px;
+    }
+
+    .icon > a {
+        text-decoration: none;
+        color: white;
+        transition: 1s ease;
+    }
+
+    .icon > a:hover {
+        color: #000000;
+    }
+
+    #click{
+        opacity: 0;
+        position: absolute;
+        transform: translate(-50%);
+        left: 50vw;
+    }
+
+    @keyframes doubleCurveBounce {
+        0% {
+            top: -75px;
+            left: -75px;
+            transform: scale(1,1);
+        }
+        40%{
+            transform: scale(1,1);
+        }
+        60% {
+            top: 90vh;
+            left: 25vw;
+            transform: scale(1.5, .3);
+        }    
+        100% {
+            transform: scale(1, 1);
+            transform: translate(-50%, -50%);
+            top: 50vh;
+            left: 50vw;
+        }
+    }
+}
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  #content {
+    display: none;
+  }
+
+  #title{
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    background-color: #000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    box-shadow: 0px 5px black;
+  }
+
+#title > h1{
+    animation: fadeInTitle 1.5s 1 forwards;
+}
+
+#aboutMe{
+    padding-bottom: 10%;
+}
+
+.headerXp {
+    padding-top: 5%;
+    background-color: #000080;
+    color: white;
+    margin-bottom: 10%;
+    line-height: 50px;
+    box-shadow: 0px 5px black;
+}
+
+.contentXp{
+    padding-bottom: 50px;
+}
+
+.contentXp > b > a {
+    text-decoration: none;
+    color: black;
+    transition: 1s ease;
+}
+
+.contentXp > b > a:hover {
+    color: #000080;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000080;
+    border-top: solid 3px #000000;
+    height: 100px;
+}
+
+#starter {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    position: absolute;
+    border: 5px solid #000080;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vw;
+    animation: doubleCurveBounce 1s ease-in-out forwards;
+    transition: transform 1.5s ease;
+    align-items: center;
+}
+
+#secondStart {
+    background-color: #000080;
+    position: relative;
+    width: 0.1px;
+    height: 0.1px;
+    border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+@keyframes helper {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInTitle {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
